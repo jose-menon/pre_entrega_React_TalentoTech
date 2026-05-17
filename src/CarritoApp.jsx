@@ -6,6 +6,7 @@ import { ProductProvider } from './context/ProductProvider'
 import { CartPage } from './pages/CartPage'
 import { ProductsPages } from './pages/ProductsPages'
 import { FooterComponent } from './component/FooterComponent'
+import { PersonasProvider } from './context/PersonasProvider'
 
 export const CarritoApp = () => {
   return (
@@ -19,7 +20,9 @@ export const CarritoApp = () => {
             <Route path='/*' element={<Navigate to="/" />}>Carrito</Route>
           </Routes>
         </div>
-      <FooterComponent />
+        <PersonasProvider>
+          <FooterComponent />
+        </PersonasProvider>
       </CartProvider>
     </ProductProvider>
   )

@@ -1,0 +1,25 @@
+{
+    "data": [
+    {
+        "_id": "64292927021f17e13fbc1e71",
+        "name": "Anakin Skywalker",
+        "description": "Analista Funcional",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_0326586e.png",
+        "__v": 0
+    },
+    {
+        "_id": "64292927021f17e13fbc1e73",
+        "name": "Appo",
+        "description": "Front-End",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/Appo-main-image_653bd25a.jpeg",
+        "__v": 0
+    },
+    {
+        "_id": "64292927021f17e13fbc1e6d",
+        "name": "Alton Kastle",
+        "description": "Tester QA",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/alton-kastle_bf3196be.jpeg",
+        "__v": 0
+    }
+]
+}
